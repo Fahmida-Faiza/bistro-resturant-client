@@ -19,8 +19,9 @@ const handleLogOut =()=>{
         <li><Link to="/menu">Our Menu</Link></li>
         <li><Link to="/order/salad">Order Food</Link></li>
         <li><Link to="/secret">Secret</Link></li>
+        {/* cart */}
        <li>
-            <Link to='/'>
+            <Link to='/dashboard/cart'>
                 
                 <button className="btn">
               <FaShoppingCart className="mr-2"></FaShoppingCart>
@@ -28,6 +29,7 @@ const handleLogOut =()=>{
             </button></Link>
 
        </li>
+       {/* ////////// */}
       
         {
             user ? <>
